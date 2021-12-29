@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<launch>
+    <include     file           = '$(find f1tenth_simulator)/launch/racecar_model2.launch'>
+    <arg         name           = 'car_name'
+                value          = 'car_2'/>
+    <arg         name           = 'car_paint'
+                value          = 'Yellow'/>
+    <arg         name           = 'run_gazebo'
+                value          = 'false'/>
+    <arg         name           = 'x_pos'
+                value          = '5.5'/>
+    <arg         name           = 'y_pos'
+                value          = '-10.0'/>
+    <arg         name           = 'run_map'
+                value          = 'false'/>
+    <arg         name           = 'run_rviz'
+                value          = 'false'/> </include>
+
+</launch>
