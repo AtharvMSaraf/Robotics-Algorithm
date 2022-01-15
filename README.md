@@ -33,3 +33,7 @@ Marks Obtained for these projects are:-
     Part 2:  **Feature Based Alignment**:
  
       In this we computed the cornerness function on an image, and chooses the top 200 features in the given image. Created another file called im_align3.m that runs the RANSAC algorithm. The algorithm randomly picks a feature in image 1 (lets say the B channel image) and assumes it aligns with a random feature in image 2 (lets say, the G channel image). After which  we Calculated the pixel shift for this alignment. Then apply the same pixel shift to every feature in image 1, and search for a corresponding feature in image 2 within a threshold (a small window). If i found a feature within that window, I counted it as an inlier; else it is not. I ran this several times, and pick the best alignment (highest number of inliers). So the output was this alignment, along with an aligned color image
+
+4] **A* Planning**:-
+
+    The objective of this assignment is to plan a path for a robot from a given starting point to a destination. I used A* planning algorithm to find a route from a default start point (-8.0, -2.0) to a default goal (4.5, 9.0). The occupancy grid map was given and the heuristics function used for this project was eulers distnace.
